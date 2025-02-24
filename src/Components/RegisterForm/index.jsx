@@ -1,6 +1,6 @@
 const RegisterForm = () => {
     return (
-      <div className="absolute right-10 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-70 p-6 rounded-lg shadow-lg w-96">
+      <div className="absolute right-10 top-0 transform -translate-y-1/2 bg-white bg-opacity-70 p-6 rounded-lg shadow-lg w-96">
         <h2 className="text-red-600 text-xl font-bold text-center mb-4">¡Regístrate aquí!</h2>
         <form className="flex flex-col gap-2">
           <input className="p-2 border rounded" type="text" placeholder="Nombre" />
