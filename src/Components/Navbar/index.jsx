@@ -12,9 +12,12 @@ const Navbar = () => {
           />
         </li>
         <ul className="font-sans font-semibold flex w-auto gap-x-4 text-white">
-          <li>Soluciones</li>
-          <li>Noticias de Interés</li>
-          <li>Ingresar</li>
+          <li>
+            <NavLink to="/">Registrate</NavLink>
+          </li>
+          <li>
+            <NavLink to="/login">Ingresar</NavLink>
+          </li>
         </ul>
       </ul>
     </nav>
